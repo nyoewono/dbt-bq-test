@@ -1,0 +1,4 @@
+SELECT COUNT(*)
+FROM raw.products
+WHERE price<0
+HAVING COUNT(*)>0
