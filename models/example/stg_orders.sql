@@ -4,6 +4,7 @@ SELECT
     c.Customer_Name,
     p.Product_ID,
     p.Product_Name,
+    p.Price,
     o.Quantity,
     o.Order_Date
 FROM
